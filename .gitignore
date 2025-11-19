@@ -1,0 +1,38 @@
+# Windows / VS / CMake / MinGW ignores
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Object / binary
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.a
+*.pdb
+*.ilk
+*.idb
+
+# IDEs / editors
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.ipch
+*.log
+*.swp
+*~
+Thumbs.db
+
+# Build/test
+Debug/
+Release/
+Testing/
+
+# MinGW helper
+mingw32-make.exe
